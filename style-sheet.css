@@ -1,0 +1,48 @@
+body{
+    background-image: url("background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+
+    color: white;
+}
+span{
+    vertical-align: sub;
+    font-size: 12pt;
+}
+th,td{
+    border-spacing: 5px;
+}
+th{
+    background-color: #4687af;
+    padding: 20px;
+    font-size: 18pt;
+    font-weight: bold;
+}
+td{
+    padding: 10px;
+    font-size: 12pt;
+}
+td:first-of-type{
+    font-weight: bold;
+}
+table,td,th{
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: monospace;
+}
+tbody>tr:nth-child(even){
+    background-color: #4687af;
+}
+tbody>tr:hover{
+    background-color: #f2f3f4;
+    color: black;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a:visited{
+    color: lightgreen;
+}
